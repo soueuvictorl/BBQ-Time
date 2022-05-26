@@ -1,6 +1,6 @@
 <h3>BBQ-Time</h3>
 
-Projeto de calculadora de churrasco (churrascômetro) entitulado 
+Projeto de calculadora de churrasco (churrascômetro) entitulado BBQ Time
 
 O BBQ Time foi criado com o intuito de auxiliar na hora de organizar aquele churrasco de fim de semana para reunião de família e amigos.
 
