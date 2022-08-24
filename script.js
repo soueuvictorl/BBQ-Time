@@ -7,16 +7,16 @@ let resultado = document.getElementById('resultado')
 function calcular() {
   console.log('calculando...')
 
-  let aduktos = inputAdultos.value;
+  let adultos = inputAdultos.value;
   let criancas = inputCriancas.value;
   let duracao = inputDuracao.value;
 
   
-  let qntTotalCarne = carnePP(duracao) * aduktos + (carnePP(duracao) / 2 * criancas);
+  let qntTotalCarne = carnePP(duracao) * adultos + (carnePP(duracao) / 2 * criancas);
 
-  let qntTotalCerveja = cervejaPP(duracao) * aduktos;
+  let qntTotalCerveja = cervejaPP(duracao) * adultos;
 
-  let qntTotalBebidas = bebidasPP(duracao) * aduktos + (carnePP(duracao) / 2 * criancas);
+  let qntTotalBebidas = bebidasPP(duracao) * adultos + (carnePP(duracao) / 2 * criancas);
 
   resultado.innerHTML = `<h3>Você vai precisar de:</h3>`
   resultado.innerHTML += 
